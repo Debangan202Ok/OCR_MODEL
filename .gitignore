@@ -1,0 +1,26 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore media files (uploads)
+media/
+
+# Ignore static files (collected using `collectstatic`)
+staticfiles/
+
+# Ignore virtual environment directory (if using virtualenv or venv)
+venv/
+
+# Ignore IDE and code editor files
+.vscode/
+.idea/
+
+# Ignore system and temporary files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.swp
+*.swo
+
+# Ignore secret settings or environment variables
+.env
